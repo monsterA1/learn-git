@@ -1,0 +1,22 @@
+常用命令：
+git clone originUrl
+git checkout -b newBranchName
+git status
+git add filesName   /** git add .  相当于添加所有修改的文件， 配置.gitignore文件可以忽略某些文件**/
+git commit -m 'commit notes'
+git fetch origin originBranchName:originBranchName
+git merge originBranchName
+git checkout originBranchName
+git merge newBranchName
+git push origin originBranchName
+
+/**关于版本回退**/
+git reset HEAD
+git log
+git reset --hard 2216d4e
+git reflog
+git cherry-pick 4c97ff3
+
+
+/**学习网址**/
+https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013752340242354807e192f02a44359908df8a5643103a000
